@@ -1,0 +1,40 @@
+#root{
+  margin-left: 50px;
+  margin-top: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background-color: rgb(53, 52, 52);
+  color: #ffffff;
+}
+
+span,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  margin-top: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+button{
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+button + button{
+  margin-left: 15px;
+ 
+}
+
+li + li{
+  margin-top: 10px;
+}
+
